@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="bgimage">
+      <nav class="navbar navbar-expand-sm navbar-light bg-secondary  ">
+        <div class="container">
+
+          <a href="index.html" class="navbar-brand text-white">OnlineMath</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse text-center" id="myMenu" style="margin-left:150px; ">
+          <ul class="navbar-nav ml-auto" >
+              <li class="nav-item ">
+                <a href="#" class="nav-link text-white">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a href="#" class="nav-link text-white">Calculator</a>
+              </li>
+              <li class="nav-item ">
+                <a href="#" class="nav-link text-white">Home Tutor</a>
+              </li>
+              <li class="nav-item ">
+                <a href="#" class="nav-link text-white">Contact Us</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+      </nav>
+
+
+          <div class=" container-fluid text-center headerset">
+            <h1 class="text-uppercase font-weight-bold">Welcome to online math solution</h1>
+            <p class="font-italic font-weight-bold">learn and test yourself</p>
+            <button class="btn btn-outline-danger " data-target="#mymodal" data-toggle="modal">Select your class</button>
+            <div class="modal" id="mymodal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header popclass">
+
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body poptext">
+                        <table class="table table-striped">
+                              <tr>
+                                <td>class 9</td>
+                                <td><a href="facts9" class="btn btn-outline-danger">click here</a> </td>
+
+                              </tr>
+                              <tr>
+                                <td>class 10</td>
+                                <td><a href="#" class="btn btn-outline-danger">click here</a> </td>
+
+
+                              </tr>
+                              <tr>
+                                <td>class 11</td>
+                                <td><a href="#" class="btn btn-outline-danger">click here</a> </td>
+
+
+                              </tr>
+                              <tr>
+                                <td>class 12</td>
+                                <td><a href="#" class="btn btn-outline-danger">click here</a> </td>
+
+
+                              </tr>
+
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+        <section class="container overservices text-center ">
+          <h1>Services</h1>
+          <div class="row rowseeting">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto ">
+                <h2>Problem solving</h2>
+                <p>You can solve any math problem related to your class online. </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto ">
+                <h2>Online tution</h2>
+                <p>we have very experinced and talented teachers who provides online math classes. </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto ">
+                <h2>Test</h2>
+                <p>Once you complete a chapter you can give a test. </p>
+            </div>
+
+          </div>
+        </section>
+        <section class="ourteam">
+          <div class="container text-center">
+            <h1>Our amezing team</h1>
+            <div class="row teamsetting">
+              <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                  <img src="https://thumbs.dreamstime.com/b/math-teacher-classroom-25521002.jpg" class="figure-img img-fluid rounded-circle" height="250px" weight="250px">
+
+                  <figcaption>
+                    <h4>molly</h4>
+                    <p class="figure-caption">algebra expert</p>
+                  </figcaption>
+
+                </figure>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                  <figure class="figure">
+                    <img src="https://img-aws.ehowcdn.com/340x221p/photos.demandstudios.com/getty/article/83/170/57442706.jpg" class="figure-img img-fluid rounded-circle" height="250px" weight="250px">
+
+                    <figcaption>
+                      <h4>rozeland</h4>
+                      <p class="figure-caption">trigonometry expert</p>
+                    </figcaption>
+
+                  </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                    <figure class="figure">
+                      <img src="https://www.whas11.com/img/resize/media.whas11.com/assets/WHAS/images/8bf68795-c495-4a22-910e-fdb88928f598/8bf68795-c495-4a22-910e-fdb88928f598.png?mode=pad&bgcolor=000000&scale=both&width=750&height=422" class="figure-img img-fluid rounded-circle" height="250px" weight="250px">
+
+                      <figcaption>
+                        <h4>relson</h4>
+                        <p class="figure-caption">calculas expert</p>
+                      </figcaption>
+
+                    </figure>
+                  </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

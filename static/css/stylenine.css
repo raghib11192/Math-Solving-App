@@ -1,0 +1,51 @@
+
+.overservices{
+    margin-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.overservices h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.rowseeting{
+  margin-top: 50px;
+}
+.firstlist{
+  overflow:auto;
+}
+.firstlist .item1row1{
+  font-size: 15px;
+  font-weight: lighter;
+
+
+}
+.firstlist .item2row1{
+  font-size: 15px;
+  font-weight: lighter;
+
+}
+.firstlist .item3row1{
+  font-size: 15px;
+  font-weight: lighter;
+
+
+}
+.firstlist .item4row1{
+  font-size: 15px;
+  font-weight: lighter;
+
+}
+.firstlist .item5row1{
+  font-size: 15px;
+  font-weight: lighter;
+
+}
+.firstlist .item6row1{
+  font-size: 15px;
+  font-weight: lighter;
+
+}
